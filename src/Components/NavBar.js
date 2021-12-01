@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div className="navbar">
             <h1>Ninja Reading List</h1>
-            <p>{books.length}</p>
+            <p>Currently, {books.length} {books.length === 1 ? 'book' : 'books'} is in Local DB</p>
         </div>
     )
 }
